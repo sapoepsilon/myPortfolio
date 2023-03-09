@@ -7,9 +7,9 @@
         "lint": "eslint ./",
         "lint-fix": "eslint --fix ./",
         "format": "prettier --write .",
-        "watch": "tailwindcss -i ./src/app.css -o ./dist/output.css --watch",
-        "build-css": "tailwindcss -i ./src/app.css -o ./dist/output.css -m",
-        "build-js": "esbuild ./src/app.js --outfile=./dist/output.js --sourcemap --bundle --minify"
+        "watch": "tailwindcss -i app.css -o ./dist/output.css --watch",
+        "build-css": "tailwindcss -i app.css -o ./dist/output.css -m",
+        "build-js": "esbuild app.js --outfile=./dist/output.js --sourcemap --bundle --minify"
     },
     "repository": {
         "type": "git",
