@@ -3228,6 +3228,11 @@ select{
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.bg-teal-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 148 136 / var(--tw-bg-opacity));
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -3522,6 +3527,14 @@ select{
 
 .pt-32{
   padding-top: 8rem;
+}
+
+.pt-2{
+  padding-top: 0.5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-left{
@@ -5227,6 +5240,16 @@ select{
   .dark\:bg-blue-600{
     --tw-bg-opacity: 1;
     background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-teal-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(45 212 191 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-teal-600{
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 148 136 / var(--tw-bg-opacity));
   }
 
   .dark\:text-white{
