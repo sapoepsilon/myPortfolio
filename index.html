@@ -29,6 +29,10 @@
                         </a>
                     </ul>
                 </template>
+                <a href="wallpapers.html" class="hover:text-slate-300 overflow-hidden">
+                    <p class="text-teal-400">06.</p>
+                    <p class="text-slate-200 ">wallpapers</p>
+                </a>
             </div>
             <div class="md:hidden">
                 <button @click="isOpen = !isOpen"
@@ -55,7 +59,7 @@
 
     <header class="flex flex-col p-2 px-10 py-10 md:flex-row-reverse">
         <div class="">
-            <img src="assets/images/Face.png" class="object-fill md:h-auto" alt="Resume picture" />
+            <img src="assets/images/Face.png" class="object-fill md:h-auto w-1/2 h-2" alt="Resume picture" />
         </div>
         <div class="">
             <div class="">
@@ -71,7 +75,7 @@
                 <div class="text-center">
                     <button
                         class="flex w-full items-center justify-center rounded border border-teal-400 p-4 text-slate-300 hover:bg-teal-800 md:w-auto lg:px-6"
-                        onclick="downloadFile('assets/files/Ismatulla Mansurov resume.pdf')">
+                        onclick="downloadFile('assets/files/Ismatulla Mansurov resume.pdf', 'Ismatulla Mansurov resume.pdf')">
                         <span class="mr-2"> Download my resume</span>
                         <img src="assets/icons/download.svg" class="mr-2 w-4" alt="icon" />
                     </button>
@@ -92,12 +96,8 @@
                 <svg class="absolute top-4 -right-4 -z-10 mb-8 flex h-full w-full bg-teal-400"></svg>
             </div>
             <p class="">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lorem vel tincidunt finibus, odio
-                ex
-                tempus ligula, ut
-                varius ante magna eu metus. Integer malesuada, leo vel volutpat tempor, odio libero dapibus odio, eget
-                bibendum ipsum tellus at
-                nunc. Aliquam rutrum risus ante, id aliquet nisi feugiat ac.
+                Programmer, Snowboarder, Cyclist, Photographer. Check out my wallpapers for your devices.
+                All kind of things enthusiast, mainly a problem solver.
             </p>
         </div>
     </section>
@@ -111,7 +111,8 @@
 
         <div class="px-10 py-2 text-lg">
             <p>
-                Welcome to the fun zone! Here, you'll find all the skills and projects that I've been tinkering with.
+                Welcome to the fun zone! Here, you'll find all the skills and projects that I've been tinkering
+                with.
                 From
                 HTML to CSS, and
                 JavaScript to Python, I've got a bit of everything on display.
@@ -127,8 +128,8 @@
                         <h3 class="mb-2 pl-3 text-lg font-medium" x-text="language.language"></h3>
 
                         <div class="font-base py-5 pl-3">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, lorem vel tincidunt
-                                finibus, odio ex</p>
+                            <p>These are 5 languages that I chose to show that are linked with wakatime. Nothing
+                                interesting, just some fun api hooking in JS.</p>
                         </div>
 
                         <div class="m-auto h-7 w-11/12 bg-gray-500">

@@ -1,8 +1,8 @@
-function downloadFile(filePath) {
+function downloadFile(filePath, name) {
     const a = document.createElement('a');
     console.log(filePath);
     a.href = filePath;
-    a.download = 'Izzy Mansurov resume';
+    a.download = name;
     a.click();
 }
 
